@@ -1,0 +1,21 @@
+{
+  "name": "node-grpc-demo",
+  "version": "1.0.0",
+  "description": "CRUD with gRPC and Node",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "EvanXzj <2686465170@qq.com> (http://blog.chuidylan.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "0.5.6",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "grpc": "1.24.5",
+    "hbs": "4.1.1",
+    "uuid": "8.3.2"
+  }
+}
